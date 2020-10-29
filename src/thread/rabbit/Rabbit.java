@@ -9,10 +9,12 @@ public class Rabbit implements Runnable {
     private final Thread rabbit;
 
     public Rabbit() {
+
         this.rabbit = new Thread(this, "Rabbit");
     }
 
     public Thread getRabbit() {
+
         return rabbit;
     }
 
